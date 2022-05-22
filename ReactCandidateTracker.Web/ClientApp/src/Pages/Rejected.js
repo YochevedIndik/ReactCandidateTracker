@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import CandidateTable from "./CandidateTable";
+import CandidateTable from "../components/CandidateTable";
 
 const Rejected = () => {
     const [candidates, setCandidates] = useState([]);

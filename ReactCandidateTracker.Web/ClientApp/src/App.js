@@ -1,13 +1,13 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import Home from "./Home";
+import Home from "./Pages/Home";
 import Layout from "./components/Layout";
-import { StatusContextComponent } from './StatusComponent';
-import AddCandidate from "./AddCandidate";
-import Pending from "./components/Pending";
-import Confirmed from "./components/Confirmed";
-import Rejected from "./components/Rejected";
-import Details from "./components/Details";
+import { StatusContextComponent } from "./components/StatusComponent";
+import AddCandidate from "./Pages/AddCandidate";
+import Pending from "./Pages/Pending";
+import Confirmed from "./Pages/Confirmed";
+import Rejected from "./Pages/Rejected";
+import Details from "./Pages/Details";
 
 
 

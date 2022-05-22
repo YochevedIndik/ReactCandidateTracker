@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { useStatusCounts } from '../StatusComponent';
+import { useStatusCounts } from './StatusComponent';
+
 
 
 

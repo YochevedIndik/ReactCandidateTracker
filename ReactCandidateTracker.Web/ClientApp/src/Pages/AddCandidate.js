@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 import { useHistory } from 'react-router-dom'
-import { useStatusCounts } from "./StatusComponent";
+import { useStatusCounts } from "../components/StatusComponent";
 
 const AddCandidate = () =>{
     const [candidate, setCandidate] = useState({
